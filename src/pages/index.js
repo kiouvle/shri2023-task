@@ -224,7 +224,7 @@ export default function Home() {
           content="width=device-width, initial-scale=1.0" />
         <title>Яндекс.Дом</title>
       </Head>
-      <Header/>
+      <Header />
       <main className={"main"}>
         <section className={"section main__general"}>
           <h2 className={"section__title section__title-header section__main-title"}>Главное</h2>
@@ -367,7 +367,9 @@ export default function Home() {
             }
           </div>
         </section>
-      </main>;
+      </main>
+
+      ;
 
 
 
