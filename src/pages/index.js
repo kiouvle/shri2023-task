@@ -1,10 +1,10 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 import Head from 'next/head'
-import { Inter } from 'next/font/google'
+import { Lato } from 'next/font/google'
 
 import React from 'react';
 
-const inter = Inter({ subsets: ['latin'] })
+const lato = Lato({ weight: '400', subsets: ['latin'] })
 
 function Event(props) {
   const ref = React.useRef();
@@ -228,7 +228,7 @@ export default function Home() {
         <title>Яндекс.Дом</title>
       </Head>
       <Header/>
-      <main className={"main"}>
+      <main className={["main", lato.className].join(' ')}>
         <section className={"section main__general"}>
           <h2 className={"section__title section__title-header section__main-title"}>Главное</h2>
           <div className={"hero-dashboard"}>
