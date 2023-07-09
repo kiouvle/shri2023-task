@@ -24,7 +24,7 @@ function Event(props) {
         <span className={"event__subtitle"}>{props.subtitle}</span>
       }
     </button>
-  </li>;
+  </li>
 }
 
 function Header() {
@@ -57,7 +57,7 @@ function Header() {
         <a className={"header__link"} href="/scripts">Сценарии</a>
       </li>
     </ul>
-  </header>;
+  </header>
 }
 
 const TABS = {
@@ -369,8 +369,6 @@ export default function Home() {
         </section>
       </main>
 
-      ;
-
 
 
 
@@ -379,5 +377,5 @@ export default function Home() {
 
 
     </>
-  )
+  );
 }
