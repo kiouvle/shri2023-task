@@ -13029,3 +13029,7 @@ html, body {
       margin-left: 0;
   }
 }
+
+next-route-announcer {
+  display: none;
+}
